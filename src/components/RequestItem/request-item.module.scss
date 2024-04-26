@@ -1,0 +1,40 @@
+.request__item{
+    font-size: .8rem;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 300px 200px 250px;
+    // line-height: 5;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: .5rem;
+    padding: 1rem .5rem;
+    align-items: center;
+
+    &__buttons{
+        display: flex;
+        gap: 10px;
+
+        &--details{
+            background: #1b1b1b;
+            padding: .8rem 1rem;
+            border-radius: 6px;
+            color: #FFF;
+            cursor: pointer;
+            font-size: .8rem
+        }
+
+        &--accept{
+            @extend .request__item__buttons--details;
+            background: rgb(26, 120, 26)
+        }
+
+        &--decline{
+            @extend .request__item__buttons--details;
+            background: #db2626
+        }
+
+        &--delete{
+            @extend .request__item__buttons--details;
+            background: royalblue
+        }
+    }
+}

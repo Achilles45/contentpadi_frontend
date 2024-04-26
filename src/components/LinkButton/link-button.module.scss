@@ -1,0 +1,30 @@
+.link{
+    background: #1B1B1B;
+    padding: .9rem 2rem;
+    border-radius: 6px;
+    color: #FFF;
+    font-size: .85rem;
+    font-weight: 500;
+    cursor: pointer;
+
+    a{
+        text-decoration: none;
+        color: #FFF;
+    }
+}
+
+.transparent{
+    background: transparent;
+    border: 1px solid #1b1b1b;
+    padding: .9rem 2rem;
+    border-radius: 6px;
+    color: #000;
+    font-size: .85rem;
+    font-weight: 500;
+    cursor: pointer;
+
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+}

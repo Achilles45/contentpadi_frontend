@@ -1,0 +1,35 @@
+.message__item{
+    font-size: .8rem;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    // line-height: 5;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: .5rem;
+    padding: 1rem 1.5rem;
+    align-items: center;
+
+    &__buttons{
+        display: flex;
+        gap: 10px;
+
+        &--details{
+            background: royalblue;
+            padding: .8rem 1rem;
+            border-radius: 6px;
+            color: #FFF;
+            cursor: pointer;
+            font-size: .8rem
+        }
+
+        // &--update{
+        //     @extend .message__item__buttons--details;
+        //     background: rgb(26, 120, 26)
+        // }
+
+        &--delete{
+            @extend .message__item__buttons--details;
+            background: maroon
+        }
+    }
+}

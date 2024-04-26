@@ -1,0 +1,35 @@
+.idea__item{
+    font-size: .8rem;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 300px 200px 200px;
+    // line-height: 5;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: .5rem;
+    padding: 1.2rem 1.5rem;
+    align-items: center;
+
+    &__buttons{
+        display: flex;
+        gap: 10px;
+
+        &--details{
+            background: #292828;
+            padding: .8rem 1rem;
+            border-radius: 6px;
+            color: #FFF;
+            cursor: pointer;
+            font-size: .8rem
+        }
+
+        &--update{
+            @extend .idea__item__buttons--details;
+            background: royalblue
+        }
+
+        &--delete{
+            @extend .idea__item__buttons--details;
+            background: maroon
+        }
+    }
+}

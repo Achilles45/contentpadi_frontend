@@ -1,0 +1,14 @@
+.requests{
+    &__tab{
+        background: #FAFAFA;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 1.2rem .5rem;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: .9rem;
+        display: grid;
+        // width: 850px;
+        grid-template-columns: 300px 200px 250px;
+    }
+}

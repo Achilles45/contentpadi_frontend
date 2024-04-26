@@ -1,0 +1,31 @@
+.hero{
+    background: #F8F8F8;
+    border-radius: 6px;
+    padding: 4rem 3rem;
+    margin-top: 10rem;
+    margin-bottom: 3.5rem;
+
+    &__content{
+        max-width: 750px;
+        h1{
+            text-transform: capitalize;
+            padding-bottom: 1.3rem;
+            font-size: 2.2rem;
+            font-weight: 800;
+            line-height: 1.4;
+        }
+
+        p{
+            font-weight: 500;
+            line-height: 2;
+            font-size: .92rem;
+            opacity: .8;
+            padding-bottom: 2.4rem;
+        }
+
+        &__buttons{
+            display: flex;
+            gap: 20px;
+        }
+    }
+}

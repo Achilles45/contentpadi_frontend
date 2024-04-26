@@ -1,0 +1,26 @@
+.links{
+    a{
+        text-decoration: none;
+        padding: 1.1rem 2rem;
+        border-radius: 6px;
+        align-items: center;
+        display: flex;
+        // gap: 10px;
+        color: #1b1b1b;
+        margin-bottom: 1rem;
+        font-size: .85rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    &--active{
+        background: #1b1b1b;
+        color: #fff !important;
+    }
+}
+
+
+.sidebar{
+    position: fixed;
+    width: 250px;
+}
